@@ -1,0 +1,179 @@
+/* Стилі для фонів */
+    .background-purple{
+        background-color: #be78ff;/* Фіолетовий фон */
+    }
+    .background-yellow{
+        background-color: #feffb4;/* Жовтий фон */
+    }
+
+/* Стилі для тіла документа */
+    body{
+        margin: 0;
+        padding: 0;
+    }
+
+/* Стилі для заголовка персони */		
+    .header-persona{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	
+    .persona{
+        font-family: "Impact", sans-serif;
+        color: #be78ff;/* Фіолетовий колір тексту */
+        font-size: 72px;
+        text-transform: uppercase;
+        margin: 20px 0 0;
+    }
+
+    .persona-title{
+        font-family: "Times New Roman";
+        font-size: 32px;
+        font-weight: 500;
+        font-style: italic;
+        text-transform: uppercase;
+    }
+
+/* Стилі для розділів */
+    .section{
+        padding: 40px;
+    }
+	
+    .container{
+        max-width: 1200px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+/* Стилі для контейнера з інформацією */
+    .info-container{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .info-image{
+        width: 40%;
+    }
+
+    .info-image img{
+        width: 100%;
+    }
+
+    .info-list{
+        width: 60%;
+        list-style: none;
+    }
+
+    .info-list li{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .info-list li b{
+        width: 30%;
+        font-family: "Arial", sans-serif;
+        color: #feffb4;/* Жовтий колір тексту */
+        text-transform: uppercase;
+        font-size: 28px;
+    }
+
+    .info-list li span{
+        width: 60%;
+		font-family: "Times New Roman";
+		font-style: italic;
+        min-width: 350px;
+        color: #fff;/* Білий колір тексту */
+        font-weight: 100;
+        font-size: 24px;
+    }
+
+/* Стилі для контейнера з навичками */
+
+    .skills-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skills-header{
+        font-family: "Arial", sans-serif;
+        margin: 0 0 20px;
+        color: #be78ff;
+        text-transform: uppercase;
+        font-size: 48px;
+    }
+
+    .skills-list li{
+		font-family: "Times New Roman";
+        font-size: 24px;
+        margin-bottom: 18px;
+    }
+
+/* Стилі для розділу досягнень */
+    .section-achievements{
+        padding: 40px 20px 20px;
+    }
+
+    .achievements-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .achievements-header{
+        font-family: "Arial", sans-serif;
+        margin: 0 0 30px;
+        color: #feffb4;
+        text-transform: uppercase;
+        font-size: 48px;
+    }
+
+    .achievements-items{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .achievements-items img{
+        width: 30%;
+        margin-bottom: 40px;
+    }
+
+/* Стилі для підвалу */
+
+    .footer{
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        list-style: none;
+    }
+
+    .footer-list li{
+        margin-bottom: 10px;
+    }
+
+    .footer-list li:last-child{
+        margin-bottom: 0;
+    }
+
+    .footer-list a{
+        text-decoration: none;
+        color: #000;/* Чорний колір тексту */
+        font-size: 30px;
+        font-weight: 600;
+        font-style: italic;      
+    }
